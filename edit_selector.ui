@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Edit_Selector</class>
+ <widget class="QDialog" name="Edit_Selector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>57</y>
+     <width>200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Editare nume contact</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Editar numar contact</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>223</y>
+     <width>200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Anulare</string>
+   </property>
+  </widget>
+  <zorder>background2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_5</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
